@@ -149,6 +149,8 @@ async function run() {
   const enrichedIconMetaData = enrichMetadata(iconMetadata, 24);
   await fse.remove("./src");
   await fse.mkdir("./src");
+  await fse.copyFile('package-src.json', './src/package.json')
+  await fse.copyFile('README.md', './src/README.md')
   const iconIndex = {};
   const categoryIndex = {};
   const tagIndex = {};
