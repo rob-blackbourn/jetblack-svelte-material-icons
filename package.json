@@ -1,0 +1,38 @@
+{
+  "name": "@jetblack/svelte-material-icons",
+  "version": "0.1.0",
+  "description": "A svelte library for Material Design icons",
+  "author": {
+    "name": "Rob Blackbourn",
+    "email": "rob.blackbourn@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/rob-blackbourn/jetblack-svelte-material-icons/issues"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "build": "node  scripts/build.js"
+  },
+  "keywords": [
+    "svelte",
+    "svelte3",
+    "material-design",
+    "material",
+    "svelte-components",
+    "sveltejs",
+    "icons"
+  ],
+  "files": [
+    "src"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rob-blackbourn/jetblack-svelte-material-icons.git"
+  },
+  "devDependencies": {
+    "change-case": "^4.1.2",
+    "fs-extra": "^9.0.1",
+    "node-fetch": "^2.6.1"
+  }
+}
