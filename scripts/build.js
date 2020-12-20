@@ -185,7 +185,6 @@ async function run() {
 
   await writeIndex(iconIndex);
   await writeNestedIndices(categoryIndex, "categories");
-  await writeNestedIndices(tagIndex, "tags");
 
   console.log("Hello, World!");
 }
